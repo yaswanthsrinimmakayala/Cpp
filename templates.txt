@@ -1,0 +1,13 @@
+templates have an idea of passing any data type to the funtion
+ so that there is no need of creating any funtoins for other data types
+
+for example 
+we can use sort() to sort any data types
+
+there are two keywords in c++
+that support templates 
+i.e: template and type_name
+
+the second keyword can be replaced by keyword class
+
+

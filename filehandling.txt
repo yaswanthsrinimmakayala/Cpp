@@ -1,0 +1,5 @@
+File handling: 
+there are classes involved in fstream
+ifstream : helps in reads the files
+ofstream : helps in creating files and writing them
+fstream : combination of ifstream and ofstream

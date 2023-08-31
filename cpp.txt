@@ -1,0 +1,107 @@
+we need to declare in cpp
+int variable = value
+similarly for double, char, string, bool,float
+________________________________________
+if we keep const in front of the declaration it cannot be changed
+like
+const float PI = 3.14
+the value cannot be updated further more
+________________________________________
+float vs. double
+
+The precision of a floating point value indicates 
+how many digits the value can have after the decimal point. 
+The precision of float is only six or seven decimal digits, 
+while double variables have a precision of about 15 digits. 
+Therefore it is safer to use double for most calculations.
+________________________________________
+e in float or double indicates the 10 to the power 
+example
+float flt = 35e10;
+double dbl = 12E4;
+flt = 35 * (10 **10)
+dbl=120000
+________________________________________
+if we try to print a value which was deined as 
+char then it will return the 
+ascii character acording to that value
+________________________________________
+String Types
+while dealing with strings we need to include library called <string>
+________________________________________
+OPERATORS
++
+-
+*
+/
+%
+>
+<
+>=
+<=
+++ INCREMENT
+-- DECREMENT
+= ASSIGNMENT
+== EQUAL to
+!= NOT EQUAL TO 
++=
+-=
+*=
+/=
+%=
+&= it is bitwise and gate it will convert the numbers into binary format and perform bitwise and operations
+|= it is bitwise or operations
+^= bitwise XOR operation
+>>= right shift by the right operand
+<<= left shift by right operand
+&& logical and
+|| logical or
+! logical not
+______________
+String Concatenation
+
++ can used to add strings
+or else
+we use append to concatenate strings
+______________
+we can not use + between two different datatypes
+like we can use for between two strings but 
+we can not use between a string and an integer
+________________________________________
+Strings 
+
+strings are muttable in cpp
+we can access the characters in the string by using indicies starting from 0 
+________________________________________
+Input 
+What would you do if we need to take a line as Input
+then???????????????????????
+getline(cin,variable name)
+______________
+What will happen when we try to print a boolean in cpp
+it will give 1 when the bool value is true
+and 0 when false
+______________
+if, else if ,else
+what is ternary opoerator?
+variable = (condition) ? expressionTrue : expressionFalse;
+Example:
+x=16
+string result = (x>15)?"Hot":"Cool"
+cout<<result;
+//  it will print hot
+________________________________________
+break and continue in loops
+______________
+Arrays -- can have only one datatype
+syntax:
+datatype variable_name[size]={values,values1}
+// when you creating an array with values then size is not required
+// we can insert values in any index , we can omit an index  the value will be null
+
+______________
+Size of array
+=sizeof(arrayname)/sizeof(array-datatype)
+________________________________________
+Structures
+________________________________________

@@ -1,0 +1,67 @@
+vectors are just dynamic arrays which will automatically resize its
+size when an element is inserted or deleted
+They have a continous storage and they can be accessed or traversed using iterators
+in vectors the data is inserted at the end.
+inserting at the end takes differential time
+as sometimes array need to be extended.
+Removing the last element takes only constant time as resizing array is not required.
+inserting or removing the element from the begining or middele is linear time.
+
+std::vector in c++ is the class template that contians the vector container
+and its member functions.
+using these 
+syntax
+vector_name.funtion_name();
+
+Iterators available in vectors
+
+begin() returns an iterator pointing at the first element in the vector
+end()   returns an iterator pointing to the theoritical element that follows   last element that 
+        follows the last element in vector
+begin() and end() comes under iterator
+
+rbegin() returns a reverse iterator that points out to last element in the vector 
+         reverse begining(reverse begin)
+rend()  returns a reverse iterator that pointing to the theoritical 
+        element which is infront of the first element of the vector
+        (reverse end)
+rbegin() and rend() comes under reverse_iterator
+
+cbegin() -returns a constant iterator pointing out a first element in the vector
+cend() - returns a constant iterator pointing to the theoritical element that follows the last element in the vector
+cbegin() and cend() comes const_iterator;
+
+crbegin() - returns the constant reverse iterator pointing to the last element of the vector
+crend() - returns the constant reverse iterator that points out to the theoritical element that preceeding the first element in the vector 
+crbegin() and crend() comes const_reverse_iterator;
+
+
+capacity 
+size() gives the number of elements in the vector
+max_size() returns the maximum number of elements that a vector can hold 
+capacity() returns the size of storage space currently allocated to the vector expressed as number of elements
+resize(n)  resizes the container so that it contains n elements
+empty()  returns whether a container is empty or not
+shrink_to_fit() reduces the capacity of the container to fit its size and destroys all elements beyond the capacity
+reserve(n)  requests that the vector capacity be atleast enough to contain n elements
+
+
+Element access, let g1 be vector 
+reference operator: g1[2]
+returns a reference to the element at the position 2 in the vector
+
+front() returns the first element in the vector
+back() returns the last element in the vector 
+data() return a direct pointer to the array storing the values in the vector 
+
+Modifiers
+assign() it assigns new value to the vector elements by replacing old ones
+push_back() it push the elements at the end of the vector
+pop_back() it remove the element at the end of the vector
+insert() it inserts the new elements before the element at the specified position
+erase() it is used to remove the elements from the container from the specific position or range
+swap() it is used to swap the elements of one vector with another vector of the same type sizes can be differential
+clear() it is used to remove all the elements from the vector container
+emplace() it extends the container by inserting the new element at the position
+emplace_back() it is used to insert a new element into the vector container the new element is added to the end of the vector
+
